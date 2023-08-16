@@ -18,3 +18,6 @@ ENTRYPOINT ["python3", "main.py"]
 ## command docker to create and run a container in the detach mode;
 # Map container port 8000 to the host port 8001
 # docker run -d -p 8001:8000 --name my_container-m hyper-web-app-m
+
+# CLEANING
+#docker container stop container_ID
