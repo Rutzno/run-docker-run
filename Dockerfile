@@ -20,4 +20,4 @@ ENTRYPOINT ["python3", "main.py"]
 # docker run -d -p 8001:8000 --name my_container-m hyper-web-app-m
 
 # CLEANING
-#docker container stop container_ID
+# docker container stop container_ID
