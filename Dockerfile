@@ -22,4 +22,4 @@ ENTRYPOINT ["python3", "main.py"]
 # CLEANING
 # docker container stop container_ID
 # docker container rm container_ID
-# docker rmi image
+# docker rmi image:tag
