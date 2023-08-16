@@ -13,4 +13,6 @@ ENTRYPOINT ["python3", "main.py"]
 # command docker to build new image
 # docker build -t hyper-web-app-m:latest .
 
+# command docker to create and run a container in the detach mode;
+
 # docker run -d -p 8001:8002 --name my_container-m hyper-web-app-m
