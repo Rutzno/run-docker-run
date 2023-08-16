@@ -4,6 +4,8 @@
 
 FROM python:3.11-slim
 
+LABEL author=Mack_TB
+
 EXPOSE 8000
 WORKDIR /home/app
 ADD hyper-app .
