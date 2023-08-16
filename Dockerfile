@@ -10,9 +10,9 @@ ADD hyper-app .
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python3", "main.py"]
 
-# command docker to build new image
+## command docker to build new image
 # docker build -t hyper-web-app-m:latest .
 
-# command docker to create and run a container in the detach mode;
-
-# docker run -d -p 8001:8002 --name my_container-m hyper-web-app-m
+## command docker to create and run a container in the detach mode;
+# Map container port 8000 to the host port 8001
+# docker run -d -p 8001:8000 --name my_container-m hyper-web-app-m
