@@ -1,6 +1,6 @@
 # @author Mack_TB
 # @since 06/07/2023
-# @version 1.0.3
+# @version 1.0.4
 
 FROM python:3.11-slim
 
@@ -19,7 +19,7 @@ ENTRYPOINT ["python3", "main.py"]
 # Map container port 8000 to the host port 8001
 # docker run -d -p 8001:8000 --name my_container-m hyper-web-app-m
 
-# CLEANING
+## CLEANING
 # docker container stop container_ID
 # docker container rm container_ID
 # docker rmi imageName
