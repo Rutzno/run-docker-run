@@ -1,6 +1,6 @@
 # @author Mack_TB
 # @since 06/07/2023
-# @version 1.0.4
+# @version 1.0.5
 
 FROM python:3.11-slim
 
